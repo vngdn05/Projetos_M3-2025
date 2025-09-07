@@ -24,7 +24,7 @@ def draw_cat_plot():
     
 
     # Draw the catplot with 'sns.catplot()'
-    fig = sns.catplot(
+    figure = sns.catplot(
     data=df_cat,
     x='variable',
     y='total',
@@ -34,7 +34,7 @@ def draw_cat_plot():
     )
 
     # Get the figure for the output
-    fig = fig.fig
+    fig = figure.fig
 
 
     # Do not modify the next two lines
